@@ -29,7 +29,9 @@ public class Carrera {
 		this.cantidadSemestres = cantidadSemestres;
 	}
 
-	public Carrera() {
-		throw new UnsupportedOperationException();
+	public Carrera(String nombre, String codigo, int cantidadSemestres) {
+		this.nombre = nombre;
+		this.codigo = codigo;
+		this.cantidadSemestres = cantidadSemestres;
 	}
 }

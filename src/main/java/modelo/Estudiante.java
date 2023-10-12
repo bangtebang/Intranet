@@ -5,7 +5,7 @@ public class Estudiante {
 	private String apellido;
 	private String rut;
 	private String numeroMatricula;
-	public Carrera carrera;
+	private Carrera carrera;
 
 	public String getNombre() {
 		return this.nombre;
@@ -39,7 +39,15 @@ public class Estudiante {
 		this.numeroMatricula = numeroMatricula;
 	}
 
-	public Estudiante() {
-		throw new UnsupportedOperationException();
+	public Estudiante(String nombre, String apellido, String rut, String numeroMatricula, Carrera carrera) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.rut = rut;
+		this.numeroMatricula = numeroMatricula;
+		this.carrera = carrera;
 	}
+	public String toString(){
+		return this.rut+","+this.nombre+","+this.numeroMatricula;
+	}
+
 }
