@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deda43f-e459-4073-be39-0e9c0afe34ab" name="Changes" comment="subo constructores">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/data/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/data/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/data/DBGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/data/DBGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/data/dao/EstudianteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/data/dao/EstudianteDAO.java" afterDir="false" />
+    <list default="true" id="8deda43f-e459-4073-be39-0e9c0afe34ab" name="Changes" comment="subo creacion y conexion con base de datos">
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CarreraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CarreraController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697142255246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subo creacion y conexion con base de datos">
+      <created>1697144936969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697144936969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo main" />
     <MESSAGE value="subo codigo creado automatico con umnl de VP" />
     <MESSAGE value="subo constructores" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo constructores" />
+    <MESSAGE value="subo creacion y conexion con base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo creacion y conexion con base de datos" />
   </component>
 </project>
