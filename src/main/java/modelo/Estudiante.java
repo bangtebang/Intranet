@@ -39,15 +39,17 @@ public class Estudiante {
 		this.numeroMatricula = numeroMatricula;
 	}
 
-	public Estudiante(String nombre, String apellido, String rut, String numeroMatricula, Carrera carrera) {
+	public Estudiante(String nombre, String apellido, String rut, String numeroMatricula) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.rut = rut;
 		this.numeroMatricula = numeroMatricula;
-		this.carrera = carrera;
 	}
 	public String toString(){
 		return this.rut+","+this.nombre+","+this.numeroMatricula;
 	}
 
+	public Carrera getCarrera() {
+		return this.carrera;
+	}
 }
