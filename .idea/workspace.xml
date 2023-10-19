@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8deda43f-e459-4073-be39-0e9c0afe34ab" name="Changes" comment="subo creacion y conexion con base de datos">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CarreraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CarreraController.java" afterDir="false" />
+    <list default="true" id="8deda43f-e459-4073-be39-0e9c0afe34ab" name="Changes" comment="subo correccion y creacion de controlador">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBienvenida.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBusquedaEstudiante.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroCarrera.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroEstudiante.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaTabla.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaBienvenida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBienvenida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaBusquedaEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaBusquedaEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroCarrera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaRegistroEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/VentanaTabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/VentanaTabla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,13 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal.Principal" />
+      <module name="Intranet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697144936969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="subo correccion y creacion de controlador">
+      <created>1697145379338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697145379338</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -83,6 +130,7 @@
     <MESSAGE value="subo codigo creado automatico con umnl de VP" />
     <MESSAGE value="subo constructores" />
     <MESSAGE value="subo creacion y conexion con base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo creacion y conexion con base de datos" />
+    <MESSAGE value="subo correccion y creacion de controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo correccion y creacion de controlador" />
   </component>
 </project>
