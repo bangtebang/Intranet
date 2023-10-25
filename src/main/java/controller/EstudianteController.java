@@ -33,4 +33,18 @@ public class EstudianteController {
         DBConnector.closeConnection();
         return datosEstudiantes;
     }
+
+    public static String getRutEstudiante(String nombre, String carrera) throws ClassNotFoundException {
+        DSLContext query = DBGenerator.conectarBD("Universidad");
+        String rut = EstudianteDAO.getRutEstudiante(query,nombre,carrera);
+        DBConnector.closeConnection();
+        return rut;
+    }
+
+    public static String getMatriculaEstudiante(String nombre, String carrera) throws ClassNotFoundException {
+        DSLContext query = DBGenerator.conectarBD("Universidad");
+        String matricula = EstudianteDAO.getMatriculaEstudiante(query,nombre,carrera);
+        DBConnector.closeConnection();
+        return matricula;
+    }
 }

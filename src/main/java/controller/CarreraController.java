@@ -7,6 +7,7 @@ import org.jooq.DSLContext;
 
 public class CarreraController {
 
+
     public static boolean añadirCarrera(String nombreCarrera, String codigoCarrera, int cantSemestres) throws ClassNotFoundException {
         DSLContext query = DBGenerator.conectarBD("Universidad");
         if(!CarreraDAO.validarExistenciaCarrera(query,"codigo",codigoCarrera)){

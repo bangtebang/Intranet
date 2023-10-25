@@ -20,7 +20,6 @@ public class DBGenerator {
         crearTablaEstudiante(create);
         relacionarTabla(create,"Estudiante","codigo_carrera","Carrera");
         DBConnector.closeConnection();
-
     }
     public static DSLContext conectarBD(String nombre) throws ClassNotFoundException {
         Connection connection = DBConnector.connection(nombre,"root","");
@@ -48,6 +47,7 @@ public class DBGenerator {
     private static void crearTablaEstudiante(DSLContext create){
         create.createTableIfNotExists("Estudiante").column("rut",VARCHAR(50))
                 .column("nombre",VARCHAR(100))
+                .column("apellido",VARCHAR(100))
                 .column("matricula",VARCHAR(50))
                 .column("codigo_carrera",VARCHAR(50))
                 .constraint(primaryKey("rut")).execute();

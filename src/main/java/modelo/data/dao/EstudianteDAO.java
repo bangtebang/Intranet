@@ -19,6 +19,23 @@ public class EstudianteDAO {
                 .execute();
 
     }
+
+    public static String getRutEstudiante(DSLContext query, String nombre, String carrera) {
+        Table tablaEstudiante= table(name("Estudiante"));
+        Table tablaCarrera= table(name("Carrera"));
+        Result resultados = query.select().from(tablaEstudiante).join(tablaCarrera).on(DSL.field("codigo").eq(DSL.field("codigo_carrera")))
+                .where(DSL.field("nombre").eq(nombre)).and(DSL.field("codigo_carrera").eq(carrera)).fetch();
+        return (String) resultados.getValue(0,"rut");
+    }
+
+    public static String getMatriculaEstudiante(DSLContext query, String nombre, String carrera) {
+        Table tablaEstudiante= table(name("Estudiante"));
+        Table tablaCarrera= table(name("Carrera"));
+        Result resultados = query.select().from(tablaEstudiante).join(tablaCarrera).on(DSL.field("codigo").eq(DSL.field("codigo_carrera")))
+                .where(DSL.field("nombre").eq(nombre)).and(DSL.field("codigo_carrera").eq(carrera)).fetch();
+        return (String) resultados.getValue(0,"matricula");
+    }
+
     public void modificarEstudiante(DSLContext query, String rut, String columnaTabla, Object dato){
         query.update(DSL.table("Estudiante")).set(DSL.field(columnaTabla),dato).
                 where(DSL.field("rut").eq(rut)).execute();
